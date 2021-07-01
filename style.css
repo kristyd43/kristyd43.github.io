@@ -1,0 +1,61 @@
+html {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(89,177,134,1) 100%, rgba(190,228,209,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+h1 {
+    text-align: center;
+    border-radius: 5rem;
+    font-size: 3rem;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+#search {
+    height: 1rem;
+}
+
+#navbar {
+    text-align:center;
+}
+
+.navbar {
+    color: black;
+    padding:1mm;
+}
+
+#presentation {
+    height: 30rem;
+}
+
+#profile-pic {
+    height: 20rem;
+    margin-top: 15%;
+    background-color: lightgrey;
+    border-radius: 1rem;
+    margin-left: 5rem;
+}
+
+header {
+    background-color: lightgrey;
+    border-radius: 5rem;
+    padding: 1rem;
+}
+
+section {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+
+#bio {
+    background-color: lightgrey;
+    border-radius: 1rem;
+    width: 40rem;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 5rem;
+    height: fit-content;
+}
