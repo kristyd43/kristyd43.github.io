@@ -36,7 +36,13 @@ header {
     color: white;
     padding:3mm;
     border-radius: 1rem;
-    background-color: black;
+    display: inline-block;
+}
+
+.navbar img {
+    height: 2rem;
+    border-radius: 1rem;
+    display: block;
 }
 
 p {
@@ -104,7 +110,7 @@ p {
     border-radius: 1rem;
     width: 100%;
     margin-left: 0mm;
-    height: 80%;
+    margin-bottom: 0;
 }
 
 
@@ -170,4 +176,10 @@ form {
     }
 
 
+}
+
+footer {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 7%;
 }
