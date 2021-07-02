@@ -68,9 +68,13 @@ p {
 
 .row-container {
     display: flex;
-    background-color: #ebfafa;
+    background-color: none;
     padding: 5% 5% 0 5%;
     justify-content: space-around;
+}
+
+#header {
+    display: inline-block;
 }
 
 .text-container{
@@ -100,12 +104,11 @@ p {
     border-radius: 1rem;
     width: 100%;
     margin-left: 0mm;
+    height: 80%;
 }
 
 
 form {
-    margin: 50px auto;
-    width: 50%;
     display: inline-block;
 }
 
@@ -149,4 +152,22 @@ form {
 
 .form-item button {
     width: 100px;
+}
+
+@media (max-width:600px) {
+    .row-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    #mail-icon {
+        display: none;
+    }
+
+    #Kristy {
+        font-size: 2rem;
+    }
+
+
 }
