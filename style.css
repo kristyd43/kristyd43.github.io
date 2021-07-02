@@ -14,7 +14,6 @@ header {
     text-decoration-line: underline;
     font-family: 'Dancing Script', cursive;
     font-weight: bold;
-    display: inline-block;
     margin-top: 0%;
     margin-left: 5%;
 }
@@ -28,8 +27,8 @@ header {
     margin-top: 0%;
     font-size: 1rem;
     word-spacing: 1rem;
-    display: inline-block;
-    margin-left: 20%;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
 .navbar {
@@ -79,10 +78,6 @@ p {
     justify-content: space-around;
 }
 
-#header {
-    display: inline-block;
-}
-
 .text-container{
     width: 40%;
     display: flex;
@@ -98,8 +93,6 @@ p {
     text-align: center;
     font-family: 'Dancing Script', cursive;
     font-size: 3rem;
-    display: inline-block;
-    width: 100%;
 }
 
 
