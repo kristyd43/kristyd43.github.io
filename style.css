@@ -120,6 +120,12 @@ p {
     margin-bottom: 0;
 }
 
+#contact {
+    font-size: 5rem;
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    justify-content: space-around;
+}
 
 form {
     display: inline-block;
